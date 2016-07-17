@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html ng-app="app">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+<title></title>
+<link rel="stylesheet" href="css/ionic-1.3.1.css" />
+<script type="text/javascript" src="js/ionic-bundle-1.3.1.js" ></script>
+<style type="text/css">
+	a{
+		text-decoration: none;
+		color:#000;
+	}
+	ion-slide img{
+		width:100%;
+		height:150px;
+	}
+	.col img{
+		height:50px;
+	}
+	.headerColor{
+		background:#9c897b;
+	}
+	.footerColor{
+		background:#eeeeee;
+	}
+	.col{
+		text-align: center;
+	}
+</style>
+</head>
+
+<body ng-controller="controller">
+<ion-header-bar class="headerColor">
+	<a class="button button-icon icon ion-android-menu"></a>
+	<h1 class="title">重庆</h1>
+	<a class="button button-icon icon ion-search"></a>
+	<a class="button button-icon icon ion-ios-contact"></a>
+</ion-header-bar>
+<ion-content class="footerColor">
+	<div class="row">
+		<div class="col"><a href="">重庆</a></div>
+		<div class="col"><a href="">热闻</a></div>
+		<div class="col"><a href="">椒盐</a></div>
+		<div class="col"><a href="">鸣家</a></div>
+		<div class="col"><a href="">正事儿</a></div>
+		<div class="col"><a href="">娱乐</a></div>
+	</div>
+	<ion-slide-box show-pager="true" does-continue="true" auto-play="true" slide-interval="1000">
+		<ion-slide>
+			<img src="images/activity_lv.jpg" />
+		</ion-slide>
+		<ion-slide>
+			<img src="images/actvBanner.png" />
+		</ion-slide>
+		<ion-slide>
+			<img src="images/activity_lv.jpg" />
+		</ion-slide>
+		<ion-slide>
+			<img src="images/italy/italy_main.png" />
+		</ion-slide>
+	</ion-slide-box>
+	<div class="row">
+		<div class="col">
+			<img src="images/activity.png" />
+			<p>有线电视</p>
+		</div>
+		<div class="col">
+			<img src="images/DFIcon.png" />
+			<p>手机话费</p>
+		</div>
+		<div class="col">
+			<img src="images/DSIcon.png" />
+			<p>水费</p>
+		</div>
+		<div class="col">
+			<img src="images/FJIcon.png" />
+			<p>电费</p>
+		</div>
+	</div>
+	<div class="list">
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+		<div class="item item-avatar">
+			<img src="images/001.jpg" />
+			<h2>2016年全国两会述评：万众一心，向着第一个百年</h2>
+			<p>评论&ensp;0</p>
+		</div>
+	</div>
+</ion-content>
+<ion-footer-bar class="footerColor">
+	<ion-tabs class="tabs-icon-top">
+		<ion-tab title="政务" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline"></ion-tab>
+		<ion-tab title="生活" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline"></ion-tab>
+		<ion-tab title="活动" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline"></ion-tab>
+		<ion-tab title="问政" icon-on="ion-ios-filing" icon-off="ion-ios-filing-outline"></ion-tab>
+	</ion-tabs>
+</ion-footer-bar>
+
+
+
+
+
+<script type="text/javascript">
+	var m1=angular.module("app",["ionic"]);
+	m1.controller("controller",["$scope",function($scope){
+		
+		
+		
+	}]);
+</script>
+</body>
+</html>
